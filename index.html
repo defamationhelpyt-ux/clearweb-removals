@@ -1,213 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- GOOGLE VERIFICATION (already verified – KEEP IT) -->
-  <meta name="google-site-verification" content="PASTE_YOUR_VERIFICATION_CODE_HERE" />
+<!-- GOOGLE VERIFICATION (KEEP YOUR EXISTING CODE HERE) -->
+<meta name="google-site-verification" content="PASTE_YOUR_VERIFICATION_CODE_HERE">
 
-  <!-- SEO -->
-  <title>ClearWeb Removals | Online Content, DMCA & Reputation Management</title>
-  <meta name="description" content="ClearWeb Removals provides professional online content removal services. We remove defamation, DMCA infringements, copyright violations, fake reviews, leaks, and harmful content from social media, websites, marketplaces, and adult platforms using lawful procedures." />
-  <meta name="keywords" content="content removal service, DMCA takedown, defamation removal, reputation management, remove negative content, copyright infringement removal, adult content removal, social media takedown" />
+<title>ClearWeb Removals | Professional Content & Reputation Removal Services</title>
 
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+<meta name="description" content="ClearWeb Removals provides professional online content removal services. We remove defamatory content, DMCA infringements, negative reviews, leaked images, and unauthorized content from Google, social media, adult platforms, and websites with guaranteed results.">
 
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #0f172a;
-      color: #e5e7eb;
-      line-height: 1.6;
-    }
+<meta name="keywords" content="content removal service, dmca takedown, defamation removal, remove negative reviews, adult content removal, google removal service, online reputation management">
 
-    header {
-      background: linear-gradient(135deg, #020617, #0f172a);
-      padding: 70px 20px;
-      text-align: center;
-    }
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-    header h1 {
-      font-size: 2.4rem;
-      margin-bottom: 10px;
-    }
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  font-family: 'Segoe UI',Arial,sans-serif;
+  background:#05070c;
+  color:#e5e7eb;
+  line-height:1.7;
+}
 
-    header p {
-      max-width: 900px;
-      margin: auto;
-      font-size: 1.05rem;
-      color: #cbd5f5;
-    }
+/* ===== HERO ===== */
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:70px 18px;
+  background:
+    radial-gradient(circle at top,#0b1220 0%,#020617 60%),
+    linear-gradient(120deg,#020617,#000);
+}
+.hero-box{
+  max-width:900px;
+  text-align:center;
+  animation:up 1.1s ease forwards;
+}
+.badge{
+  display:inline-block;
+  padding:8px 18px;
+  border-radius:30px;
+  background:rgba(56,189,248,.15);
+  border:1px solid rgba(56,189,248,.4);
+  color:#7dd3fc;
+  font-size:13px;
+  margin-bottom:18px;
+}
+.hero h1{
+  font-size:42px;
+  margin-bottom:16px;
+}
+.hero h1 span{color:#38bdf8}
+.hero p{
+  color:#cbd5f5;
+  font-size:16px;
+  margin-bottom:26px;
+}
+.hero-points{
+  display:grid;
+  gap:10px;
+  margin-bottom:32px;
+  font-size:14px;
+}
+.hero-points div{color:#e5e7eb}
 
-    .btn {
-      display: inline-block;
-      margin-top: 25px;
-      padding: 14px 28px;
-      background: #2563eb;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 8px;
-      font-weight: bold;
-    }
+.cta{
+  display:flex;
+  gap:14px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+.btn{
+  padding:14px 26px;
+  border-radius:10px;
+  font-weight:600;
+  text-decoration:none;
+  transition:.3s;
+}
+.btn-whatsapp{
+  background:linear-gradient(135deg,#25D366,#16a34a);
+  color:#fff;
+}
+.btn-email{
+  border:1px solid #38bdf8;
+  color:#38bdf8;
+}
+.btn:hover{transform:translateY(-2px);opacity:.9}
 
-    section {
-      padding: 60px 20px;
-      max-width: 1100px;
-      margin: auto;
-    }
+/* ===== SECTIONS ===== */
+section{
+  max-width:1100px;
+  margin:auto;
+  padding:70px 18px;
+}
+section h2{
+  text-align:center;
+  font-size:32px;
+  margin-bottom:40px;
+}
 
-    h2 {
-      text-align: center;
-      margin-bottom: 35px;
-      font-size: 2rem;
-    }
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:24px;
+}
+.card{
+  background:#020617;
+  border:1px solid #1e293b;
+  border-radius:14px;
+  padding:26px;
+}
+.card i{
+  font-size:28px;
+  color:#38bdf8;
+  margin-bottom:14px;
+}
+.card h3{margin-bottom:10px}
 
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 25px;
-    }
+/* ===== PLATFORMS ===== */
+.platforms span{
+  display:inline-block;
+  margin:6px;
+  padding:10px 16px;
+  border-radius:8px;
+  background:#020617;
+  border:1px solid #1e293b;
+  font-size:14px;
+}
 
-    .card {
-      background: #020617;
-      padding: 25px;
-      border-radius: 12px;
-      border: 1px solid #1e293b;
-    }
+/* ===== FOOTER ===== */
+footer{
+  background:#020617;
+  text-align:center;
+  padding:40px 18px;
+  font-size:14px;
+  color:#94a3b8;
+}
 
-    .card i {
-      font-size: 28px;
-      color: #38bdf8;
-      margin-bottom: 12px;
-    }
+/* ===== FLOATING WHATSAPP ===== */
+.float-wa{
+  position:fixed;
+  right:18px;
+  bottom:18px;
+  background:#25D366;
+  color:#fff;
+  padding:14px 18px;
+  border-radius:50px;
+  font-weight:600;
+  text-decoration:none;
+}
 
-    .platforms span {
-      display: inline-block;
-      background: #020617;
-      padding: 10px 14px;
-      margin: 6px;
-      border-radius: 6px;
-      border: 1px solid #1e293b;
-      font-size: 14px;
-    }
+/* ===== ANIMATION ===== */
+@keyframes up{
+  from{opacity:0;transform:translateY(30px)}
+  to{opacity:1;transform:translateY(0)}
+}
 
-    footer {
-      background: #020617;
-      padding: 40px 20px;
-      text-align: center;
-      font-size: 14px;
-      color: #94a3b8;
-    }
-
-    .floating-whatsapp {
-      position: fixed;
-      bottom: 18px;
-      right: 18px;
-      background: #25D366;
-      color: #fff;
-      padding: 14px 18px;
-      border-radius: 50px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 1.9rem;
-      }
-    }
-  </style>
+/* MOBILE */
+@media(max-width:480px){
+  .hero h1{font-size:32px}
+  section h2{font-size:26px}
+}
+</style>
 </head>
 
 <body>
 
-<header>
-  <h1>ClearWeb Removals</h1>
-  <p>
-    Professional online content removal services for individuals and businesses.
-    We remove defamatory, copyrighted, leaked, or unauthorized content from websites,
-    social media platforms, marketplaces, and adult platforms using lawful and platform-compliant procedures.
-  </p>
-  <a href="mailto:clearwebremovals@gmail.com" class="btn">Request Free Review</a>
-</header>
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-box">
+    <div class="badge">Trusted Online Content Removal Experts</div>
+    <h1>ClearWeb <span>Removals</span></h1>
+    <p>
+      We specialize in the lawful removal of defamatory, copyrighted, negative,
+      leaked, and unauthorized content from the internet. Our team handles complex
+      takedowns across search engines, social platforms, adult websites, and online
+      publications with speed, discretion, and proven results.
+    </p>
 
-<section>
-  <h2>Our Services</h2>
-  <div class="grid">
-    <div class="card">
-      <i class="fa-solid fa-scale-balanced"></i>
-      <h3>DMCA & Copyright Removal</h3>
-      <p>Removal of stolen videos, images, text, and brand misuse under DMCA and copyright laws.</p>
+    <div class="hero-points">
+      <div>✔ Reviews (Including Images) Removed Within 24–48 Hours</div>
+      <div>✔ DMCA & Defamation Based Legal Removals</div>
+      <div>✔ 100% Guaranteed Policy-Compliant Process</div>
+      <div>✔ Confidential & Secure Handling</div>
     </div>
 
-    <div class="card">
-      <i class="fa-solid fa-user-shield"></i>
-      <h3>Defamation Removal</h3>
-      <p>We remove false, harmful, and misleading content damaging your reputation.</p>
-    </div>
-
-    <div class="card">
-      <i class="fa-solid fa-lock"></i>
-      <h3>Privacy & Leak Removal</h3>
-      <p>Removal of leaked personal data, images, doxxing, and unauthorized exposure.</p>
-    </div>
-
-    <div class="card">
-      <i class="fa-solid fa-star"></i>
-      <h3>Negative Reviews Handling</h3>
-      <p>Legal handling of fake or policy-violating reviews across platforms.</p>
+    <div class="cta">
+      <a href="https://wa.me/923067895136" class="btn btn-whatsapp">WhatsApp Consultation</a>
+      <a href="mailto:a29b33@gmail.com" class="btn btn-email">Email Your Case</a>
     </div>
   </div>
+</div>
+
+<!-- SERVICES -->
+<section>
+<h2>Our Removal Services</h2>
+<div class="grid">
+  <div class="card">
+    <i class="fa-solid fa-scale-balanced"></i>
+    <h3>DMCA & Copyright Takedowns</h3>
+    <p>Removal of stolen videos, images, text, brand misuse, and unauthorized reproductions.</p>
+  </div>
+  <div class="card">
+    <i class="fa-solid fa-user-shield"></i>
+    <h3>Defamation Removal</h3>
+    <p>Elimination of false, misleading, or harmful content damaging personal or business reputation.</p>
+  </div>
+  <div class="card">
+    <i class="fa-solid fa-star"></i>
+    <h3>Negative Reviews Removal</h3>
+    <p>Policy-violating reviews, fake feedback, and review abuse handled professionally.</p>
+  </div>
+  <div class="card">
+    <i class="fa-solid fa-lock"></i>
+    <h3>Privacy & Leak Protection</h3>
+    <p>Removal of leaked images, private data, doxxing, and unauthorized exposure.</p>
+  </div>
+</div>
 </section>
 
+<!-- PLATFORMS -->
 <section>
-  <h2>Platforms We Handle</h2>
-  <div class="platforms" style="text-align:center;">
-    <span>Google Search</span>
-    <span>Google Maps</span>
-    <span>YouTube</span>
-    <span>Facebook</span>
-    <span>Instagram</span>
-    <span>TikTok</span>
-    <span>Twitter (X)</span>
-    <span>Reddit</span>
-    <span>Telegram</span>
-    <span>Discord</span>
-    <span>OnlyFans</span>
-    <span>Fansly</span>
-    <span>Adult Websites</span>
-    <span>Blogs & News Sites</span>
-    <span>E-commerce Stores</span>
-    <span>Forums</span>
-  </div>
+<h2>Platforms We Handle</h2>
+<div class="platforms" style="text-align:center">
+  <span>Google Search</span>
+  <span>Google Maps</span>
+  <span>YouTube</span>
+  <span>Facebook</span>
+  <span>Instagram</span>
+  <span>TikTok</span>
+  <span>Twitter (X)</span>
+  <span>Reddit</span>
+  <span>OnlyFans</span>
+  <span>Fansly</span>
+  <span>Adult Websites</span>
+  <span>Blogs & News Sites</span>
+  <span>E-commerce Stores</span>
+  <span>Forums</span>
+</div>
 </section>
 
+<!-- REQUIREMENTS -->
 <section>
-  <h2>What We Require for Removal</h2>
-  <div class="grid">
-    <div class="card">
-      <p>✔ Original content link(s)</p>
-      <p>✔ Infringing / harmful content URL(s)</p>
-      <p>✔ Proof of ownership (screenshots, source files, certificates)</p>
-      <p>✔ Website or brand registration documents (if applicable)</p>
-      <p>✔ Authorization letter with full name & signature (if representing someone)</p>
-      <p>✔ Valid contact details for verification</p>
-    </div>
+<h2>What We Require for Removal</h2>
+<div class="grid">
+  <div class="card">
+    <p>• Original content URLs</p>
+    <p>• Infringing / harmful content links</p>
+    <p>• Proof of ownership or identity</p>
+    <p>• Website or brand registration (if applicable)</p>
+    <p>• Authorization letter (if acting on behalf)</p>
+    <p>• Valid contact details for verification</p>
   </div>
+</div>
 </section>
 
 <footer>
-  <p>
-    Contact: <a href="mailto: a29b33@gmail.com" style="color:#38bdf8;">clearwebremovals@gmail.com</a>
-  </p>
-  <p>© 2026 ClearWeb Removals. All rights reserved.</p>
+<p>Contact: <a href="mailto:a29b33@gmail.com" style="color:#38bdf8">a29b33@gmail.com</a></p>
+<p>© 2026 ClearWeb Removals. All rights reserved.</p>
 </footer>
 
-<a class="floating-whatsapp" href="https://wa.me/923067895136" target="_blank">
-  <i class="fa-brands fa-whatsapp"></i> WhatsApp
+<a href="https://wa.me/923067895136" class="float-wa">
+<i class="fa-brands fa-whatsapp"></i> WhatsApp
 </a>
 
 </body>
