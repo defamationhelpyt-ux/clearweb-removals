@@ -1,252 +1,163 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>ClearWeb Removals | Global Content Removal Experts</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="ClearWeb Removals helps individuals and businesses remove unwanted, defamatory, copyrighted, or policy-violating content from Google, social media, e-commerce, adult platforms, and websites using lawful procedures.">
-  <meta name="keywords" content="content removal, DMCA takedown, Google Maps reviews removal, defamation removal, OnlyFans content removal, reputation management">
+  <!-- SEO META -->
+  <title>ClearWeb Removals | DMCA, Defamation & Content Removal Services</title>
+  <meta name="description" content="ClearWeb Removals provides professional DMCA takedown, defamation removal, copyright infringement and privacy content removal services from Google, social media, news, blogs and adult websites." />
+  <meta name="keywords" content="DMCA takedown service, content removal service, defamation removal, Google link removal, copyright infringement removal, OnlyFans content removal, adult content removal, online reputation management" />
+
+  <!-- ICONS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet" />
 
   <style>
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: #f4f6f8;
-      color: #333;
-      line-height: 1.7;
+    :root{
+      --bg:#0b0f19;
+      --card:#12172a;
+      --primary:#00b4ff;
+      --text:#ffffff;
+      --muted:#b8c1ec;
+    }
+    *{box-sizing:border-box;margin:0;padding:0;font-family:Arial,Helvetica,sans-serif}
+    body{background:var(--bg);color:var(--text);line-height:1.6}
+    a{text-decoration:none;color:inherit}
+
+    header{
+      padding:60px 16px;
+      text-align:center;
+      background:linear-gradient(180deg,#0b0f19,#12172a);
+    }
+    header h1{font-size:2rem;margin-bottom:12px}
+    header p{color:var(--muted);max-width:600px;margin:0 auto 24px}
+
+    .btn{
+      display:inline-block;
+      padding:14px 24px;
+      background:var(--primary);
+      color:#000;
+      border-radius:30px;
+      font-weight:bold;
     }
 
-    header {
-      background: linear-gradient(135deg, #000, #222);
-      color: #fff;
-      padding: 90px 20px;
-      text-align: center;
+    section{padding:48px 16px}
+    .container{max-width:1100px;margin:auto}
+
+    .cards{display:grid;gap:16px}
+    .card{
+      background:var(--card);
+      padding:24px;
+      border-radius:18px;
+      text-align:center;
+    }
+    .card i{font-size:28px;color:var(--primary);margin-bottom:12px}
+
+    h2{text-align:center;margin-bottom:24px;font-size:1.6rem}
+
+    .platforms{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(140px,1fr));
+      gap:14px;
+      text-align:center;
+    }
+    .platforms div{
+      background:var(--card);
+      padding:14px;
+      border-radius:14px;
+      font-size:0.95rem;
     }
 
-    header h1 {
-      font-size: 46px;
-      margin-bottom: 15px;
+    .steps .card{text-align:left}
+
+    footer{
+      background:#080b13;
+      padding:40px 16px;
+    }
+    footer p{color:var(--muted);font-size:0.9rem;text-align:center}
+
+    .contact{
+      display:flex;
+      flex-direction:column;
+      gap:16px;
+      align-items:center;
     }
 
-    header p {
-      font-size: 18px;
-      max-width: 900px;
-      margin: auto;
-      opacity: 0.95;
+    .contact a{
+      background:var(--card);
+      padding:14px 20px;
+      border-radius:14px;
+      width:100%;
+      max-width:360px;
+      text-align:center;
     }
 
-    .btn {
-      display: inline-block;
-      margin-top: 30px;
-      padding: 14px 30px;
-      background: #0a58ca;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
-    }
-
-    .container {
-      max-width: 1150px;
-      margin: auto;
-      padding: 55px 20px;
-    }
-
-    .section-title {
-      font-size: 34px;
-      margin-bottom: 15px;
-      text-align: center;
-    }
-
-    .section-desc {
-      text-align: center;
-      max-width: 900px;
-      margin: auto;
-      margin-bottom: 45px;
-      color: #555;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 25px;
-    }
-
-    .box {
-      background: #fff;
-      padding: 26px;
-      border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-    }
-
-    .box h3 {
-      margin-top: 0;
-      color: #000;
-    }
-
-    .steps {
-      background: #fff;
-      padding: 40px;
-      border-radius: 8px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.08);
-    }
-
-    .steps ol {
-      padding-left: 22px;
-    }
-
-    .platforms {
-      columns: 2;
-      font-size: 15px;
-    }
-
-    .cta {
-      background: #0a58ca;
-      color: #fff;
-      text-align: center;
-      padding: 65px 20px;
-    }
-
-    .cta h2 {
-      font-size: 36px;
-      margin-bottom: 15px;
-    }
-
-    footer {
-      background: #000;
-      color: #aaa;
-      text-align: center;
-      padding: 22px;
-      font-size: 14px;
-    }
-
-    .whatsapp {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background: #25D366;
-      color: #fff;
-      padding: 14px 18px;
-      border-radius: 30px;
-      text-decoration: none;
-      font-weight: bold;
+    @media(min-width:768px){
+      header h1{font-size:2.6rem}
+      .cards{grid-template-columns:repeat(3,1fr)}
+      .steps{grid-template-columns:repeat(3,1fr)}
     }
   </style>
 </head>
-
 <body>
 
 <header>
-  <h1>ClearWeb Removals</h1>
-  <p>
-    Professional online content removal services for individuals and businesses.
-    We remove harmful, defamatory, copyrighted, or unauthorized content from
-    websites, social platforms, marketplaces, and adult platforms using lawful,
-    platform-compliant procedures.
-  </p>
-  <a href="https://wa.me/923067895136" class="btn">Request Free Review</a>
+  <h1>Remove Harmful Content From the Internet</h1>
+  <p>Professional DMCA, defamation and privacy content removal services for individuals and businesses. 100% legal and platform‑compliant.</p>
+  <a href="#contact" class="btn">Get Free Case Review</a>
 </header>
 
-<section class="container">
-  <h2 class="section-title">Our Core Services</h2>
-  <p class="section-desc">
-    ClearWeb Removals is managed by <strong>Umair Farooq</strong>, specializing in
-    reputation protection, privacy enforcement, and content takedown solutions
-    across the internet.
-  </p>
+<section>
+  <div class="container cards">
+    <div class="card"><i class="fa-solid fa-shield-halved"></i><h3>Legal Process</h3><p>Policy‑compliant takedown procedures</p></div>
+    <div class="card"><i class="fa-solid fa-bolt"></i><h3>Fast Action</h3><p>Quick review & submission</p></div>
+    <div class="card"><i class="fa-solid fa-user-shield"></i><h3>Confidential</h3><p>Your privacy is protected</p></div>
+  </div>
+</section>
 
-  <div class="grid">
-    <div class="box">
-      <h3>DMCA & Copyright Takedowns</h3>
-      <p>
-        Removal of stolen videos, images, text, and media from websites, GitHub,
-        Google search results, and social platforms.
-      </p>
-    </div>
-
-    <div class="box">
-      <h3>Google Maps & Business Reviews</h3>
-      <p>
-        Policy-based removal of fake, spam, defamatory, or misleading Google Maps
-        and Google Business Profile reviews.
-      </p>
-    </div>
-
-    <div class="box">
-      <h3>Defamation & Article Removal</h3>
-      <p>
-        Handling false allegations, harmful news articles, blogs, and forum posts
-        affecting personal or brand reputation.
-      </p>
-    </div>
-
-    <div class="box">
-      <h3>Mugshot & Court Content Removal</h3>
-      <p>
-        Assistance with removal or suppression of outdated or misleading mugshots
-        and court-related content where applicable.
-      </p>
-    </div>
-
-    <div class="box">
-      <h3>Adult & Private Content Removal</h3>
-      <p>
-        Removal of leaked, unauthorized, or policy-violating content from adult
-        platforms including OnlyFans and similar websites.
-      </p>
+<section>
+  <div class="container">
+    <h2>Platforms We Handle</h2>
+    <div class="platforms">
+      <div>Google Search</div><div>Google Reviews</div><div>YouTube</div><div>TikTok</div><div>Instagram</div><div>Facebook</div><div>Twitter (X)</div><div>Reddit</div><div>OnlyFans</div><div>Adult Websites</div><div>News Articles</div><div>Blogs & Forums</div><div>E‑commerce Stores</div>
     </div>
   </div>
 </section>
 
-<section class="container">
-  <h2 class="section-title">Platforms We Cover</h2>
-  <p class="section-desc">
-    We submit takedown and removal requests across major platforms, marketplaces,
-    and websites worldwide.
-  </p>
-
-  <div class="box platforms">
-    Google, Google Search, Google Maps, Google Business Profile<br>
-    Facebook, Instagram, WhatsApp, Threads, X (Twitter)<br>
-    TikTok, YouTube, Vimeo, Dailymotion<br>
-    Reddit, Quora, Medium, Blogspot, WordPress sites<br>
-    Amazon, eBay, Etsy, Shopify, Alibaba, AliExpress<br><br>
-    GitHub, GitLab, Bitbucket<br>
-    OnlyFans, Fansly, ManyVids, Adult websites & leak sites<br>
-    News websites, forums, review portals & private domains
+<section>
+  <div class="container cards steps">
+    <div class="card"><h3>1. Submit URLs</h3><p>Share infringing or harmful content links.</p></div>
+    <div class="card"><h3>2. Legal Review</h3><p>We analyze DMCA, defamation & policy options.</p></div>
+    <div class="card"><h3>3. Removal Action</h3><p>Official requests submitted to platforms.</p></div>
   </div>
 </section>
 
-<section class="container">
-  <h2 class="section-title">How The Process Works</h2>
-
-  <div class="steps">
-    <ol>
-      <li><strong>Case Review:</strong> You provide URLs and details of the content.</li>
-      <li><strong>Legal & Policy Analysis:</strong> Platform rules and legal grounds are reviewed.</li>
-      <li><strong>Submission:</strong> Correct takedown or removal requests are filed.</li>
-      <li><strong>Follow-Up:</strong> Continuous monitoring and escalation if required.</li>
-      <li><strong>Resolution:</strong> Confirmation once content is removed or restricted.</li>
-    </ol>
+<section>
+  <div class="container">
+    <h2>What We Require</h2>
+    <div class="cards">
+      <div class="card">Original content links</div>
+      <div class="card">Infringing URLs</div>
+      <div class="card">Website or brand ownership proof</div>
+      <div class="card">Authority letter (if applicable)</div>
+      <div class="card">Valid contact details</div>
+    </div>
   </div>
 </section>
 
-<section class="cta">
-  <h2>Need Content Removed Quickly?</h2>
-  <p>
-    Your privacy and reputation matter. Get a confidential consultation today.
-  </p>
-  <a href="https://wa.me/923067895136" class="btn">Chat on WhatsApp</a>
+<section id="contact">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <div class="contact">
+      <a href="mailto:clearwebremovals@gmail.com"><i class="fa-solid fa-envelope"></i> clearwebremovals@gmail.com</a>
+      <a href="https://wa.me/XXXXXXXXXX"><i class="fa-brands fa-whatsapp"></i> WhatsApp Support</a>
+    </div>
+  </div>
 </section>
 
 <footer>
-  © 2026 ClearWeb Removals — Managed by Umair Farooq.<br>
-  This website provides content removal assistance and does not constitute legal advice.
+  <p>© 2026 ClearWeb Removals. All rights reserved.</p>
 </footer>
-
-<a class="whatsapp" href="https://wa.me/923067895136">WhatsApp</a>
 
 </body>
 </html>
-
